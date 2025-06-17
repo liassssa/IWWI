@@ -1,8 +1,8 @@
-# 🚀 IWWI – Meteor Addon for DonutSMP
+# 🚀 IWWI – Meteor Addon for DonutSMP (v1.21.4)
 
-Welcome to **IWWI** – the ultimate strategic automation addon built for the [Meteor Client](https://meteorclient.com/) on **Minecraft 1.21.4/1.21.5**, specifically designed for **DonutSMP**. Dominate the underground meta, manage your resources with precision, and stay 10 steps ahead of your enemies!
+Welcome to **IWWI** – the ultimate strategic automation addon built for the [Meteor Client](https://meteorclient.com/) on **Minecraft 1.21.5**, specifically designed for **DonutSMP**. Dominate the underground meta, manage your resources with precision, and stay 10 steps ahead of your enemies!
 
-> ⚠️ Requires Meteor Client and Baritone for some features  
+> ⚠️ Requires Meteor Client 1.21.4 and Baritone for some features  
 > 🌐 Supports optional **Discord Webhook** notifications for key modules
 
 ---
@@ -64,7 +64,7 @@ Can help uncover bedrock-layer vaults or trap setups.
 1. 📥 Download the latest build of **IWWI** from the [official website](http://iwwi.info) tab.
 2. Move the `.jar` file to your `.minecraft/mods` folder
 3. (Optional) Configure your **Discord Webhook URL** in the settings of modules marked with `*` for remote notifications.
-4. Launch Minecraft with Meteor Client + Baritone and enjoy!
+4. Launch Minecraft 1.21.4 with Meteor Client + Baritone and enjoy!
 
 ---
 
