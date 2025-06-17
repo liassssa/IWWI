@@ -1,25 +1,24 @@
 {
   "schemaVersion": 1,
-  "id": "addon-template",
+  "id": "iwwi",
   "version": "${version}",
-  "name": "IWWI-Block and Stashfinder",
-  "description": "IWWI-Addon a improved version of BlockESP and Stashfinder.",
+  "name": "IWWI-Addon",
+  "description": "IWWI - the ultimate strategic automation addon for DonutSMP",
   "authors": [
     "IWWI"
   ],
   "contact": {
-    "repo": "https://discord.gg/a9AaQsEc9P"
+    "discord": "https://discord.gg/a9AaQsEc9P"
   },
   "icon": "assets/template/icon.png",
   "environment": "client",
   "entrypoints": {
   "meteor": [
-    "com.example.addon.AddonTemplate"
+    "info.iwwi.addon.IWWIAddon"
   ]
 },
 
   "mixins": [
-    "addon-template.mixins.json"
   ],
   "custom": {
     "meteor-client:color": "225,25,25"
