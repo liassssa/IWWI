@@ -1,85 +1,92 @@
-# Meteor Addon Template
+# 🚀 IWWI – Meteor Addon for DonutSMP (v1.21.4)
 
-A template to allow easy usage of the Meteor Addon API.
+Welcome to **IWWI** – the ultimate strategic automation addon built for the [Meteor Client](https://meteorclient.com/) on **Minecraft 1.21.5**, specifically designed for **DonutSMP**. Dominate the underground meta, manage your resources with precision, and stay 10 steps ahead of your enemies!
 
-### How to use
+> ⚠️ Requires Meteor Client 1.21.4 and Baritone for some features  
+> 🌐 Supports optional **Discord Webhook** notifications for key modules
 
-- Clone this project
-- Use this template to create new modules/commands
-- Build the executable using the gradle `build` task.
-- Run the mod with Meteor.
+---
 
-### Project structure
+## 🧩 Modules
 
-```text
-.
-│── .github
-│   ╰── workflows
-│       │── dev_build.yml
-│       ╰── pull_request.yml
-│── gradle
-│   ╰── wrapper
-│       │── gradle-wrapper.jar
-│       ╰── gradle-wrapper.properties
-│── src
-│   ╰── main
-│       │── java
-│       │   ╰── com
-│       │       ╰── example
-│       │           ╰── addon
-│       │               │── commands
-│       │               │   ╰── CommandExample
-│       │               │── hud
-│       │               │   ╰── HudExample
-│       │               │── modules
-│       │               │   ╰── ModuleExample
-│       │               ╰── AddonTemplate
-│       ╰── resources
-│           │── assets
-│           │   ╰── template
-│           │       ╰── icon.png
-│           │── addon-template.mixins.json
-│           ╰── fabric.mod.json
-│── .editorconfig
-│── .gitignore
-│── build.gradle
-│── gradle.properties
-│── gradlew
-│── gradlew.bat
-│── LICENSE
-│── README.md
-╰── settings.gradle
-```
+### ⛏️ AutoMineDownRTP
+Automatically **RTPs** and mines straight down to Y = **-5** in search of hidden bases and player stashes.  
+Perfect for discovering underground vaults in new chunks.
 
-This is the default project structure. Each folder/file has a specific purpose.  
-Here is a brief explanation of the ones you might need to modify:
+---
 
-- `.github/workflows`: Contains the GitHub Actions configuration files.
-- `gradle`: Contains the Gradle wrapper files.  
-  Edit the `gradle.properties` file to change the version of the Gradle wrapper.
-- `src/main/java/com/example/addon`: Contains the main class of the addon.  
-  Here you can register your custom commands, modules, and HUDs.  
-  Edit the `getPackage` method to reflect the package of your addon.
-- `src/main/resources`: Contains the resources of the addon.
-    - `assets`: Contains the assets of the addon.  
-      You can add your own assets here, separated in subfolders.
-        - `template`: Contains the assets of the template.  
-          You can replace the `icon.png` file with your own addon icon.  
-          Also, rename this folder to reflect the name of your addon.
-    - `addon-template.mixins.json`: Contains the Mixin configuration for the addon.  
-      You can add your own mixins in the `client` array.
-    - `fabric.mod.json`: Contains the metadata of the addon.  
-      Edit the various fields to reflect the metadata of your addon.
-- `build.gradle.kts`: Contains the Gradle build script.  
-  You can manage the dependencies of the addon here.  
-  Remember to keep the `fabric-loom` version up-to-date.
-- `gradle.properties.kts`: Contains the properties of the Gradle build.  
-  These will be used by the build script.
-- `LICENSE`: Contains the license of the addon.  
-  You can edit this file to change the license of your addon.
-- `README.md`: Contains the documentation of the addon.  
-  You can edit this file to reflect the documentation of your addon, and showcase its features.
+### 💣 AutoSpawnerBreakerBaritone *  
+Uses **Baritone** to navigate to and **break all spawners** in your base for security.  
+When a player is detected nearby, the module automatically **logs you out**, keeping your location safe.
 
-## License
+> 🔔 **Supports Discord Webhook notifications**
 
-This template is available under the CC0 license. Feel free to use it for your own projects.
+---
+
+### 📦 AutoSpawnerChestClicker
+Automates the tedious process of **collecting bones** from your mob spawner chest and delivering them to a target chest.  
+Maximize efficiency with zero manual effort!
+
+---
+
+### 🧱 BlockESP *  
+Highlights user-specified blocks in the world, making them visible through walls.  
+Ideal for finding **spawners, chests, ores**, and more while mining or exploring.
+
+> 🔔 **Supports Discord Webhook notifications**
+
+---
+
+### 🛫 AutoElytraFlight *  
+Automated Elytra flying with smooth, airplane-style **takeoff and landing** mechanics.  
+Can fly long distances across terrain, oceans, or nether tunnels without crashing into the void.
+
+> 🔔 **Supports Discord Webhook notifications**
+
+---
+
+### 🎒 StashFinder *  
+Scans and logs the presence of **unclaimed or hidden stashes** such as chest clusters and shulkers.  
+When a stash is found, you’ll get a ping on your configured webhook.
+
+> 🔔 **Supports Discord Webhook notifications**
+
+---
+
+### 🪓 MineToYMinus50
+A simple but effective module that tunnels you straight to **Y = -50**, commonly used base depth.  
+Can help uncover bedrock-layer vaults or trap setups.
+
+---
+
+## 🔧 Setup & Installation
+
+1. 📥 Download the latest build of **IWWI** from the [official website](http://iwwi.info) tab.
+2. Move the `.jar` file to your `.minecraft/mods` folder
+3. (Optional) Configure your **Discord Webhook URL** in the settings of modules marked with `*` for remote notifications.
+4. Launch Minecraft 1.21.4 with Meteor Client + Baritone and enjoy!
+
+---
+
+## 💬 Webhook Integration
+
+Set up a Discord webhook in a private channel to receive notifications from:
+
+- AutoSpawnerBreakerBaritone
+- BlockESP
+- AutoElytraFlight
+- StashFinder
+
+These alerts will keep you updated on in-game activity even when you're AFK or offline.
+
+---
+
+## 📜 License
+
+This project is released under the **GNU General Public License v3.0**.
+
+---
+
+Stay hidden. Stay automated.  
+Welcome to **IWWI**.
+
